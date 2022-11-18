@@ -1,0 +1,9 @@
+$animation-length-ms: 0ms;
+
+:export {
+  animationMillis: $animation-length-ms;
+}
+
+.suraj {
+  background-color: yellow;
+}
