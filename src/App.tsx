@@ -1,9 +1,10 @@
-import React from 'react';
 import './App.scss';
+
+const baseClass = 'main-app';
 
 function App() {
   return (
-    <div className='suraj'>
+    <div className={`${baseClass}__header`}>
       <>ss</>Suraj
     </div>
   );

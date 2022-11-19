@@ -1,9 +1,13 @@
-$animation-length-ms: 0ms;
+$base-class: main-app;
 
 :export {
-  animationMillis: $animation-length-ms;
+  baseClass: $base-class;
 }
 
-.suraj {
-  background-color: yellow;
+.#{$base-class} {
+  &__header {
+    background-color: yellow;
+    font-size: 24px;
+    font-weight: 800;
+  }
 }
