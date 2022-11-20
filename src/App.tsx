@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={`${baseClass}__header`}>
       <div>
-        <pre>{getDividedValueUpto2ndDecimal(3.0)}</pre>
+        <pre>{getDividedValueUpto2ndDecimal(1.0)}</pre>
       </div>
     </div>
   );
