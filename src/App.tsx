@@ -1,11 +1,12 @@
 import './App.scss';
+import { getDividedValueUpto2ndDecimal } from './Utility/NumberUtil';
 
 const baseClass = 'main-app';
 
 function App() {
   return (
     <div className={`${baseClass}__header`}>
-      <>ss</>Suraj
+      <div>{getDividedValueUpto2ndDecimal(12.34842222323)}</div>
     </div>
   );
 }
