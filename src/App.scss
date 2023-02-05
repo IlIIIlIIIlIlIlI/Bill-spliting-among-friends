@@ -6,8 +6,12 @@ $base-class: main-app;
 
 .#{$base-class} {
   &__header {
-    background-color: yellow;
+    // background-color: yellow;
     font-size: 24px;
     font-weight: 800;
+  }
+
+  &__textfield {
+    background-color: red;
   }
 }
